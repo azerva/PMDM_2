@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegistroActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fondo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/logo_zumos"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/registro"
+                style="@style/subTitulo"
+                android:text="@string/registro"
+                android:gravity="center_horizontal"/>
+
+            <EditText
+                android:id="@+id/nombre_registro"
+                style="@style/et_registro"
+                android:hint="@string/nombre" />
+
+            <EditText
+                android:id="@+id/apellido_registro"
+                style="@style/et_registro"
+                android:hint="@string/apellido" />
+
+            <EditText
+                android:id="@+id/telefono_registro"
+                style="@style/et_registro"
+                android:hint="@string/telefono" />
+
+            <Spinner
+                android:id="@+id/spnRecogida_registro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp" />
+
+            <EditText
+                android:id="@+id/direccion_registro"
+                style="@style/et_registro"
+                android:hint="@string/direccon" />
+
+            <LinearLayout
+                android:id="@+id/linear_botones_registro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/btn_atras_registro"
+                    style="@style/Botones"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:text="@string/volver"
+                    android:onClick="volverMain"/>
+                <Button
+                    android:id="@+id/btn_continuar_registro"
+                    style="@style/Botones"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:text="@string/continuar"
+                    android:onClick="continuarZumo"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

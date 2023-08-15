@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Squashed Juice</string>
+    <string name="registro">Registro</string>
+    <string name="zumos">Seleccione Zumo </string>
+    <string name="picoteo">Seleccione Snacks</string>
+    <string name="titulo_informe"><b>Datos cliente y pedido</b></string>
+
+    <string name="pedido">Hacer Pedido</string>
+    <string name="help">Ayuda</string>
+    <string name="about_us">Acerca de...</string>
+    <string name="autor">Alexandre Zerva Moreno</string>
+    <string name="anio">curso 2021/2022</string>
+    <string name="lore_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim ante faucibus
+        arcu porttitor semper. Vivamus eget ligula et nisl consequat pulvinar a vel dolor. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Praesent vitae viverra dolor. Morbi blandit tellus posuere ipsum dapibus sollicitudin.
+        Praesent sit amet mi consequat, rutrum turpis et, porttitor risus. Pellentesque fringilla, nunc et lacinia facilisis,
+        nibh neque fringilla odio, sit amet porttitor nibh ipsum vitae ex. Curabitur ut semper quam. Pellentesque congue diam
+        sit amet consectetur tincidunt. Curabitur ac lacus rutrum, varius lectus vitae, posuere ligula. Morbi egestas aliquet consectetur.
+        Aliquam ac velit eleifend, finibus nulla eget, commodo lorem. Nam vel urna odio. Vestibulum vestibulum, lectus pharetra placerat hendrerit,
+        libero purus vehicula nisi, vitae laoreet velit diam id nibh.
+
+        Maecenas eu blandit est, a vestibulum arcu. Sed in leo a lacus sollicitudin consequat vitae in nunc.
+        Vivamus blandit volutpat purus, nec rhoncus eros egestas non. Quisque pellentesque non erat et dapibus.
+        Quisque congue ipsum id pulvinar viverra. Nunc turpis ex, aliquet id blandit feugiat, aliquet non magna.
+        Sed egestas, mauris vitae suscipit dictum, libero dui blandit nibh, nec ultrices sem mauris vitae erat.
+
+        Phasellus tellus tellus, posuere fringilla sagittis ut, auctor vitae nibh. Curabitur sit amet dui a felis
+        volutpat vehicula eu at dui. Praesent pellentesque porttitor tristique. Integer id ex libero. Pellentesque
+        luctus posuere arcu, at cursus mi pellentesque at. Morbi vel nisl fringilla, rutrum nunc et, dapibus odio.
+        Vivamus turpis augue, sodales ut neque nec, efficitur elementum arcu. Vivamus luctus convallis semper.
+        Sed at orci feugiat, sodales orci sed, interdum purus. Pellentesque pellentesque at nibh et congue.
+
+        Nunc tempus vel sem eu dictum. Aliquam fermentum risus diam, a consectetur velit egestas congue.
+        In lobortis felis vel efficitur feugiat. Vivamus ac turpis vel diam placerat rutrum vel ac odio.
+        Donec id accumsan neque, non pulvinar dui. Vestibulum a tellus id libero tincidunt suscipit non vel felis.
+        Mauris malesuada metus eget suscipit euismod. Sed dictum ut erat ac rutrum. Donec viverra luctus metus,
+        et vestibulum libero sollicitudin eu. Donec sodales efficitur lorem, et pretium dolor bibendum suscipit.
+        Etiam at facilisis justo. Cras sollicitudin nulla sed mollis placerat.
+
+        Aliquam imperdiet libero at sapien semper, non vehicula magna viverra. Ut sed dictum dolor.
+        Praesent magna leo, mollis in congue vitae, dignissim vel tortor. Donec egestas, mi non tristique semper,
+        lacus tortor egestas velit, ac aliquam mi turpis quis ex. Nam sollicitudin pharetra tortor quis aliquam.
+        Nullam quis elit ac nibh cursus bibendum non sed metus. Aliquam erat volutpat.</string>
+    <string name="volver">Volver</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Primer Apellido</string>
+    <string name="telefono">Teléfono</string>
+    <string name="recogida">Recogida</string>
+    <string name="direccon">Dirección</string>
+    <string name="continuar">Continuar</string>
+    <string name="celiaco">Celíaco/a</string>
+    <string name="lactosa">Intolerante a la lactosa</string>
+    <string name="resumen"><b>RESUMEN PEDIDO</b></string>
+</resources>

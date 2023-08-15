@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tipoRecogida">
+        <item>Selecciones tipo recogida</item>
+        <item>Establecimiento</item>
+        <item>Domicilio</item>
+
+    </string-array>
+</resources>

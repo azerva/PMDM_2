@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".option_menu.HelpActivity"
+    android:background="@color/fondo">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_volver_help"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/lore_ipsum"
+            android:textColor="#673AB7"/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_volver_help"
+        style="@style/Botones"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/volver" />
+
+</RelativeLayout>

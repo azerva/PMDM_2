@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SnacksActivity"
+    android:background="@color/fondo">
+
+    <TextView
+        style="@style/subTitulo"
+        android:layout_margin="10dp"
+        android:text="@string/picoteo" />
+    <Button
+        android:id="@+id/btn_limpiar_picoteo"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp"
+        android:onClick="resetCantidadesSnacks"
+        android:text="@string/limpiar"
+        android:textStyle="bold"
+        android:textColor="@color/texto_botones"
+        android:background="@drawable/design_button_app"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_snakcs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/checkbox_lactosa"
+        android:layout_below="@+id/btn_limpiar_picoteo"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_celiaco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linear_botones_picoteo"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/celiaco"
+        android:textColor="@color/black" />
+
+    <CheckBox
+        android:id="@+id/checkbox_lactosa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linear_botones_picoteo"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toEndOf="@+id/checkbox_celiaco"
+        android:text="@string/lactosa"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:id="@+id/linear_botones_picoteo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btn_volver_picoteo"
+            style="@style/Botones"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/volver"
+            android:onClick="volverZumos"/>
+        <Button
+            android:id="@+id/btn_continuar_picoteo"
+            style="@style/Botones"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/continuar"
+            android:onClick="continuarInforme"/>
+    </LinearLayout>
+
+</RelativeLayout>
